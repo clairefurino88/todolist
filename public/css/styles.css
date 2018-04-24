@@ -1,0 +1,28 @@
+#directions {
+  margin: 50px;;
+  color: gray;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+.todo-list {
+  margin: 0 auto;
+  margin-top: 75px;
+}
+
+input.new-item:focus {
+  outline: none;
+}
+
+.list-group-item > button.delete,
+.list-group-item > button.complete {
+  float: right;
+  height: 25px;
+  margin-left: 5px;
+}
+
+.edit {
+  width: 100%;
+}
